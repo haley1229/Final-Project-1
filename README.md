@@ -4,16 +4,18 @@ Fork from here to create your final project repository.
 Two things are different than all the previous assignments in 590PR regarding the permissions settings:
 
 1. Please KEEP the "All_Students" team to have Read access.  
-2. Whenever you choose to, you are welcome to change your Final Project repository to private or to public.  This will enable you to list it in your resume, website, or other portfolio.
+2. Whenever you choose to, you are welcome to change your Final Project repository to public.  This will enable you to list it in your resume, website, or other portfolio.
 
 DELETE these lines from TEMPLATE up.
 
 TEMPLATE for your report to fill out:
 
-# Title: 
+# Title:
 
 ## Team Member(s):
-(Note: Don't put your email addresses here (which is public).  If a student wants their NAME hidden as well, due to optional FERPA regulations, they can be listed purely by their GitHub ID).
+- Jifu Zhao (jzhao59)
+- Yunya Gu (yunyagu2)
+- Bo Zhao (boz5)
 
 # Monte Carlo Simulation Scenario & Purpose:
 (be sure to read the instructions given in course Moodle)
