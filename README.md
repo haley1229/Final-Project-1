@@ -1,16 +1,6 @@
 # 590PR Final_Project
-Fork from here to create your final project repository.
 
-Two things are different than all the previous assignments in 590PR regarding the permissions settings:
-
-1. Please KEEP the "All_Students" team to have Read access.  
-2. Whenever you choose to, you are welcome to change your Final Project repository to public.  This will enable you to list it in your resume, website, or other portfolio.
-
-DELETE these lines from TEMPLATE up.
-
-TEMPLATE for your report to fill out:
-
-# Title:
+# Title: Shared Bicycle Monte Carlo Simulation
 
 ## Team Member(s):
 - Jifu Zhao (jzhao59)
@@ -18,7 +8,7 @@ TEMPLATE for your report to fill out:
 - Bo Zhao (boz5)
 
 # Monte Carlo Simulation Scenario & Purpose:
-- Scenario: UIUC recently has a new shared bicycles program with VeoRide.
+- Scenario: UIUC recently has a new shared bicycles program with [VeoRide](https://www.veoride.com/).
 - Purpose: To study the best number of bicycles and charge rate for shared bicycles
 
 ## Simulation's variables of uncertainty
