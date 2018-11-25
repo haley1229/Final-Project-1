@@ -18,9 +18,10 @@ List and describe your simulation's variables of uncertainty (where you're using
 - Duration of the trip
 - Whether or not the willing students can get bicycles immediately
 
-- Charge rate: $0.01/min, $0.02/min, $0.03/min, $0.04/min, $0.05/min
-- Number of bicycles: 50, 100, 150, 200, 250, 300
-- Percentage of students who are willing to take the bicycle: 1%, 0.9%, 0.8%, 0.7%, 0.6%
+## Other variables
+- Charge rate: $0.02/min, $0.03/min, $0.04/min
+- Number of bicycles: 100, 200, 300
+- Percentage of students who are willing to take the bicycle: 1%, 0.8%, 0.6%
 - Assume there are 20,000 students in total
 
 ## Hypothesis or hypotheses before running the simulation:
@@ -33,3 +34,4 @@ List and describe your simulation's variables of uncertainty (where you're using
 ## Instructions on how to use the program:
 
 ## All Sources Used:
+- https://www.veoride.com/
