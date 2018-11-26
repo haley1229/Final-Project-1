@@ -1,6 +1,7 @@
 # 590PR Final_Project
 
 # Title: Shared Bicycle Monte Carlo Simulation
+![img](./images/bike.png)
 
 ## Team Member(s):
 - Jifu Zhao (jzhao59)
