@@ -23,10 +23,10 @@ List and describe your simulation's variables of uncertainty (where you're using
     - Bernoulli distribution with p
 
 ## Other variables
-- Assume there are 20,000 students in total
+- Assume there are 50,000 students in total
 - Number of bicycles: 100, 200, 300
 - Charge rate: $0.02/min, $0.03/min, $0.04/min
-- Percentage of students who are willing to take the bicycle: 1%, 0.8%, 0.6%
+- Percentage of students who are willing to take the bicycle: 0.01%, 0.008%, 0.006%
 
 ## Hypothesis or hypotheses before running the simulation:
 - We can find the best combination of number of bicycles and charge rate to maximize the profit
