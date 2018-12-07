@@ -9,7 +9,7 @@
 - Bo Zhao (boz5)
 
 # Monte Carlo Simulation Scenario & Purpose:
-Recently, shared bicycles have been widely deployed in campus. For example, UIUC recently has a new shared bicycles program with [VeoRide](https://www.veoride.com/). The shared bicycle provides cheap and convinent ways for students to travel around the campus. For shared bicycles, it's important to design the management strategy such that the cost can be minimized and the profit is maximized. Two most important factors are number of bicycles and the charge rate for students. 
+Recently, shared bicycles have been widely deployed in campus. For example, UIUC recently has a new shared bicycles program with [VeoRide](https://www.veoride.com/). The shared bicycle provides cheap and convinent ways for students to travel around the campus. For shared bicycles, it's important to design the management strategy such that the cost can be minimized and the profit is maximized. Two most important factors are number of bicycles and the charge rate for students.
 
 In this study, the authors want to study the best number of bicycles and charge rate for shared bicycles. Since there are some uncertainties, one way is to use the Monte Carlo simulation. Thus, under certain assmuptions, this study analyzes the influence of number of bicycles and charge rate on the profit of shared bicycle program.
 
@@ -24,9 +24,9 @@ List and describe your simulation's variables of uncertainty (where you're using
 
 ## Other variables
 - Assume there are 50,000 students in total
-- Number of bicycles: 100, 200, 300
-- Charge rate: $0.02/min, $0.03/min, $0.04/min
-- Percentage of students who are willing to take the bicycle: 0.01%, 0.008%, 0.006%
+- Number of bicycles: 200, 300, 400, 500, 600, 700, 800
+- Charge rate: $0.02/min, $0.03/min, $0.04/min, $0.05/min, $0.06/min
+- Percentage of students who are willing to take the bicycle: 0.1%, 0.09%, 0.08%, 0.07%, 0.06%, 0.05%
 
 ## Hypothesis or hypotheses before running the simulation:
 - We can find the best combination of number of bicycles and charge rate to maximize the profit
@@ -35,7 +35,27 @@ List and describe your simulation's variables of uncertainty (where you're using
 
 ## Analytical Summary of your findings: (e.g. Did you adjust the scenario based on previous simulation outcomes?  What are the management decisions one could make from your simulation's output, etc.)
 
+![img](./images/revenue_heatmap.png)
+
+![img](./images/duration_heatmap.png)
+
+
+
 ## Instructions on how to use the program:
+
+#### Prerequisite:
+Numpy, Pandas, Seaborn, Matplotlib
+
+#### To repeat the results:
+```console
+test@macbook:~$ python main.py
+```
+#### Or you can call the module separately:
+```Python
+from bicycle import Bicycle
+bike = Bicycle(num_bike=100, rate=0.05, seed=None)
+bike.simulate()
+```
 
 ## All Sources Used:
 - https://www.veoride.com/
