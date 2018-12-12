@@ -9,9 +9,9 @@
 - Bo Zhao (boz5)
 
 # Monte Carlo Simulation Scenario & Purpose:
-Recently, shared bicycles have been widely deployed in campus. For example, UIUC recently has a new shared bicycles program with [VeoRide](https://www.veoride.com/). The shared bicycle provides cheap and convinent ways for students to travel around the campus. For shared bicycles, it's important to design the management strategy such that the cost can be minimized and the profit is maximized. Two most important factors are number of bicycles and the charge rate for students.
+Recently, shared bicycles have been widely deployed in campus. For example, UIUC recently has a new shared bicycles program with [VeoRide](https://www.veoride.com/). The shared bicycle provides cheap and convenient ways for students to travel around the campus. For shared bicycles, it's important to design the management strategy such that the cost can be minimized and the profit is maximized. Two most important factors are number of bicycles and the charge rate for students.
 
-In this study, the authors want to study the best number of bicycles and charge rate for shared bicycles. Since there are some uncertainties, one way is to use the Monte Carlo simulation. Thus, under certain assmuptions, this study analyzes the influence of number of bicycles and charge rate on the profit of shared bicycle program.
+In this study, the authors want to study the best number of bicycles and charge rate for shared bicycles. Since there are some uncertainties, one way is to use the Monte Carlo simulation. Thus, under certain assumptions, this study analyzes the influence of number of bicycles and charge rate on the profit of shared bicycle program.
 
 ## Simulation's variables of uncertainty
 List and describe your simulation's variables of uncertainty (where you're using pseudo-random number generation). For each such variable, how did you decide the range and probability distribution to use?  Do you think it's a good representation of reality?
@@ -35,11 +35,11 @@ List and describe your simulation's variables of uncertainty (where you're using
 
 ## Analytical Summary of your findings: (e.g. Did you adjust the scenario based on previous simulation outcomes?  What are the management decisions one could make from your simulation's output, etc.)
 
+Through Monte Carlo simulations, we identify the influence of number of bikes and charge rate on daily revenue and bike's usage, which is shown below.
+
 ![img](./images/revenue_heatmap.png)
 
 ![img](./images/duration_heatmap.png)
-
-
 
 ## Instructions on how to use the program:
 
@@ -50,6 +50,8 @@ Numpy, Pandas, Seaborn, Matplotlib
 ```console
 test@macbook:~$ python main.py
 ```
+The corresponding csv file and corresponding figures are saved in the same path.
+
 #### Or you can call the module separately:
 ```Python
 from bicycle import Bicycle
