@@ -6,7 +6,7 @@
 ## Team Member(s):
 - Jifu Zhao (jzhao59): 
     * Choose and make assumptions for the variables. 
-    * Choose and write the algorithm for riding the bicycle. 
+    * Write and debug the code and algorithm for bicycle sharing.
     * Improve the distribution of variables. 
     * Improve the visualization of the simulation into heatmap.
 - Yunya Gu (yunyagu2): 
