@@ -4,9 +4,21 @@
 ![img](./images/bike.png)
 
 ## Team Member(s):
-- Jifu Zhao (jzhao59): Choose and make assumptions for the variables. Choose and write the algorithm for riding the bicycle. Improve the distribution of variables. Improve the visualization of the simulation into heatmap.
-- Yunya Gu (yunyagu2): Choose and make assumptions for the variables. Make simple visualization. Add more scenarios and adjust algorithm. Combine, test and add docstrings for code.
-- Bo Zhao (boz5): Do research on VeoRide. Improve assumptions for variables. Simulate the distribution of number of students who are willing to take the ride and whether the willing students can get bicycles immediately. Make the PPT for presentation.
+- Jifu Zhao (jzhao59): 
+    * Choose and make assumptions for the variables. 
+    * Choose and write the algorithm for riding the bicycle. 
+    * Improve the distribution of variables. 
+    * Improve the visualization of the simulation into heatmap.
+- Yunya Gu (yunyagu2): 
+    * Choose and make assumptions for the variables. 
+    * Make simple visualization. 
+    * Add more scenarios and adjust algorithm. 
+    * Combine, test and add docstrings for code.
+- Bo Zhao (boz5): 
+    * Do research on VeoRide. 
+    * Improve assumptions for variables. 
+    * Simulate the distribution of number of students who are willing to take the ride and whether the willing students can get bicycles immediately. 
+    * Make the PPT for presentation.
 
 # Monte Carlo Simulation Scenario & Purpose:
 Recently, shared bicycles have been widely deployed in campus. For example, UIUC recently has a new shared bicycles program with [VeoRide](https://www.veoride.com/). The shared bicycle provides cheap and convenient ways for students to travel around the campus. For shared bicycles, it's important to design the management strategy such that the cost can be minimized and the profit is maximized. Two most important factors are number of bicycles and the charge rate for students.
